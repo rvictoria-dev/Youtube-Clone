@@ -1,0 +1,396 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+
+    <title>Youtube-Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/sidebar.css" />
+    <link rel="stylesheet" href="Styles/video.css" />
+    <link rel="stylesheet" href="Styles/general.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="Assets/icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="Assets/icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="search" />
+        <button class="search-button">
+          <img class="search-icon" src="Assets/icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="Assets/icons/voice-search-icon.svg"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="Assets/icons/upload-icon.svg" />
+          <p class="upload-name">Create</p>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="Assets/icons/notifications.svg"
+          />
+          <div class="notifications-count">9+</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="Assets/channel-pictures/my-channel.png"
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img class="home-icon" src="Assets/icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="shorts-icon" src="Assets/icons/shorts.svg" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sub-icon" src="Assets/icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="you-icon" src="Assets/icons/profile.svg" />
+        <div>You</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/BGgE_xOTMy0">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-1.png" />
+            </a>
+            <div class="video-time">41:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Doobydobap">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-1.png"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">The Complete Seoul Bakery Guide (2026)</p>
+              <p class="video-author">Doobydobap</p>
+              <p class="video-stats">420M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/7-pteiPq2p0">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-2.png" />
+            </a>
+            <div class="video-time">9:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Girlworld860">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-2.png"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How to TRICK your Brain into Getting Straight A's NO MATTER WHAT
+              </p>
+              <p class="video-author">Girlworld</p>
+              <p class="video-stats">1.6M views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/UrWoF1PFqvw?si=IMCCVS01WE-YrEQr">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-3.jpg" />
+            </a>
+            <div class="video-time">7:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@JaneOlivia">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-3.png"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">FARM SNACKS & MEAL PREP</p>
+              <p class="video-author">Jane Olivia</p>
+              <p class="video-stats">16M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/r9hBbC83MWw?si=XGUEMFgkkqXOVQzP">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-4.png" />
+            </a>
+            <div class="video-time">16:08</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Spicy-Hippo-media">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-4.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                5AM Rainy Day Morning Routine | Lunchbox for Husband, Cooking
+                bibimbap, Calm and Relaxing
+              </p>
+              <p class="video-author">Spicy Hippo</p>
+              <p class="video-stats">1M views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/fSUMzufKzNg?si=CBwonJ47cYOgOi41">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-5.jpg" />
+            </a>
+            <div class="video-time">9:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@dianxixiaoge">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-5.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Apenjie's "One Fruit for a Table" Collection IV【滇西小哥】
+              </p>
+              <p class="video-author">滇西小哥 Dianxi Xiaoge</p>
+              <p class="video-stats">2,4M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/gbKLhwwrckU?si=J7V57-fG4sf4NnmQ">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-6.jpg" />
+            </a>
+            <div class="video-time">27:48</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@raquelmoca">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-6.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                cozy cooking at home 🧸 japanese food, comforting meals & simple
+                routine
+              </p>
+              <p class="video-author">moca</p>
+              <p class="video-stats">55K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/kwJ5E8VJcI0?si=oNVcE5nTv3udOivx">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-7.jpg" />
+            </a>
+            <div class="video-time">7:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@cemeteryf0g">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-7.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">My 5th gap year</p>
+              <p class="video-author">cemeteryf0g</p>
+              <p class="video-stats">2,1M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/XhtsQ9Gp70o?si=aNZS9nnnJDGKN14U">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-8.jpg" />
+            </a>
+            <div class="video-time">19:57</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Her86m2">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-8.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                #193 complete guide to raising quails | egg incubation, raising
+                quails, coop build
+              </p>
+              <p class="video-author">Her 86m2</p>
+              <p class="video-stats">210M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/ZLnQTzctqiI?si=-BaG4dsex6DrMhmx">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-9.jpg" />
+            </a>
+            <div class="video-time">18:35</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@VictoriaVictoria">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-9.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                What I Eat In A Day On A Parasite Cleanse | Lose Weight &
+                Restore Healthy GUT Balance
+              </p>
+              <p class="video-author">Victoria Victoria</p>
+              <p class="video-stats">33K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/U51goYf7r2k?si=y8UlaJGQL4KWV4xB">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-10.jpg" />
+            </a>
+            <div class="video-time">3:35:30</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@BacktoCountryside">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-10.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Living in the forest: Gardening, Harvesting Fresh Sugarcane &
+                Cooking Braised Pig Tail
+              </p>
+              <p class="video-author">Back to Countryside</p>
+              <p class="video-stats">6K views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/3SWblalXwHo?si=QhPChoP6un9byoiT">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-11.jpg" />
+            </a>
+            <div class="video-time">38:11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@staywithcotton">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-11.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Homegrown Vegetarian Meals 🍲🌿 | Relaxing Hair Day | Jab Chai |
+                Kale Stir-Fry | Eggplant Dip | VLOG
+              </p>
+              <p class="video-author">stay with cotton</p>
+              <p class="video-stats">384K views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/QEgCuvcA6bk?si=x-3fLVYNz5a6ypmR">
+              <img class="thumbnail" src="Assets/thumbnails/thumbnail-12.jpg" />
+            </a>
+            <div class="video-time">25:28</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@-o-hari5843">
+                <img
+                  class="profile-picture"
+                  src="Assets/channel-pictures/channel-12.jpg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Cheesy Cheese Cream Kimchi Fried Rice. What I eat in a week in
+                Korea
+              </p>
+              <p class="video-author">오-하리 O-Hari</p>
+              <p class="video-stats">398K views &#183; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
