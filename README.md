@@ -32,3 +32,4 @@ Youtube-Clone/
 
 ### 🎬 Preview
 
+https://github.com/user-attachments/assets/154fd8bc-37b6-490e-8991-2839d0fec476
