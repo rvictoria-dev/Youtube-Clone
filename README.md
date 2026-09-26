@@ -1,4 +1,4 @@
-# ▶︎ Youtube Clone
+# Youtube Clone
 
 ### ₊⊹ About
 
