@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/154fd8bc-37b6-490e-8991-2839d0fec476
 ### 🖿 Project structure
 
 ```
-Youtube-Clone/
+youtube-clone/
 ├── assets/
 ├── Styles/
 ├── .gitignore
